@@ -1,7 +1,7 @@
 // const { books } = require('./data/library');
 
 const formatedAuthorNamesBirth = () => {
-  // escreva seu código aquif
+  // escreva seu código aqui
 };
 
 module.exports = { formatedAuthorNamesBirth };

@@ -1,7 +1,6 @@
-// const { books } = require('./data/library');
+const { books } = require('./data/library');
 
-const formatedBookNames = () => {
-  // escreva seu código aqui
-};
+const formatedBookNames = () => books
+  .map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
 
 module.exports = { formatedBookNames };
